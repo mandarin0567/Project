@@ -7,9 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/draw"
-    tools:context=".MainActivity">
-    
-    <LinearLayout
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tool"
+        >
+    </android.support.v7.widget.Toolbar>
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -46,4 +53,6 @@
     </LinearLayout>
 
     <include layout="@layout/slide"/>
+
+
 </android.support.v4.widget.DrawerLayout>

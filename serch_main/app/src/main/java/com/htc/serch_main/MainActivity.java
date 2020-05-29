@@ -1,15 +1,19 @@
 package com.htc.serch_main;
 
+import android.content.Intent;
+import android.media.session.PlaybackState;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 
 import java.util.Map;
@@ -29,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = new Intent(this,Loading.class);
+        startActivity(intent);
 
         //드로어 네비게이션 변수 선언
         drawerLayout=(DrawerLayout)findViewById(R.id.draw);
@@ -58,9 +64,8 @@ public class MainActivity extends AppCompatActivity {
         //  자주가는곳 텍스트 변수 선언
         Place=(TextView)findViewById(R.id.place);
         Place.setOnClickListener(places);
+
     }
-
-
 
     //병원 탭을 누를때 지도에 마커 찍히는 기능
     TextView.OnClickListener hosp = new View.OnClickListener() {

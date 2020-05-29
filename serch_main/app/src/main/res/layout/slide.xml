@@ -12,20 +12,26 @@
         android:layout_height="match_parent"
         >
 
-        <TextView
+        <ImageView
+            android:id="@+id/welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="어서오세요"
-            android:textSize="14dp"
-            android:layout_marginTop="60dp"
-            android:layout_centerHorizontal="true"
-            />
+            android:scaleType="fitXY"
+            android:src="@drawable/welcome" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="170dp"
             >
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hosp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,6 +48,13 @@
             >
         </LinearLayout>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/emer"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="10dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,6 +70,13 @@
             android:layout_marginTop="310dp">
         </LinearLayout>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/durg"
+            android:layout_marginTop="333dp"
+            android:layout_marginLeft="10dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,6 +90,13 @@
             android:layout_height="1dp"
             android:layout_marginTop="380dp">
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -87,6 +114,12 @@
 
         </LinearLayout>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favor"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
