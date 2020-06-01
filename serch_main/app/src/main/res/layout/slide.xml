@@ -10,14 +10,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@android:color/white"
         >
 
         <ImageView
             android:id="@+id/welcome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
             android:scaleType="fitXY"
-            android:src="@drawable/welcome" />
+            android:src="@drawable/welcom" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,6 +40,7 @@
             android:id="@+id/hos"
             android:layout_marginTop="198dp"
             android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"
             />
 
         <LinearLayout
@@ -62,6 +64,7 @@
             android:id="@+id/emer"
             android:layout_marginTop="268dp"
             android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"
             />
 
         <LinearLayout
@@ -83,7 +86,8 @@
             android:text="약국"
             android:id="@+id/par"
             android:layout_marginTop="338dp"
-            android:layout_marginLeft="44dp"/>
+            android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -105,6 +109,7 @@
             android:id="@+id/star"
             android:layout_marginTop="408dp"
             android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"
             />
 
         <LinearLayout
@@ -127,6 +132,7 @@
             android:id="@+id/place"
             android:layout_marginTop="478dp"
             android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"
             />
 
 

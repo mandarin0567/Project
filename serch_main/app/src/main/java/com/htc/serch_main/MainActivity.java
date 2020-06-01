@@ -29,12 +29,25 @@ public class MainActivity extends AppCompatActivity {
     TextView Star; // 즐겨찾기 버튼
     TextView Place; // 자주가는곳 버튼
 
+    private TextView tv_id, tv_pass;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(this,Loading.class);
         startActivity(intent);
+
+       /* tv_id = findViewById(R.id.et_id);
+        tv_pass = findViewById(R.id.tv_pass);
+
+
+        Intent intent = getIntent();
+        String userID = intent.getStringExtra("userID");
+        String userPass = intent.getStringExtra("userPass");
+
+        tv_id.setText(userID);
+        tv_pass.setText(userPass);*/
 
         //드로어 네비게이션 변수 선언
         drawerLayout=(DrawerLayout)findViewById(R.id.draw);
