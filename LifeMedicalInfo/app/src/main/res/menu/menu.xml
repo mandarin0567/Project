@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hospital"
+            android:icon="@drawable/hosp"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="병원"
+            />
+        <item
+            android:id="@+id/emergency"
+            android:icon="@drawable/emer"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="응급실"
+            />
+        <item
+            android:id="@+id/drug"
+            android:icon="@drawable/durg"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="약국"
+            />
+
+        <item
+            android:id="@+id/favor"
+            android:icon="@drawable/favor"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="즐겨찾기"
+            />
+
+    </group>
+</menu>

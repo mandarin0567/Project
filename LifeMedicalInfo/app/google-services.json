@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1074542347057",
+    "firebase_url": "https://lifemedicalinfo.firebaseio.com",
+    "project_id": "lifemedicalinfo",
+    "storage_bucket": "lifemedicalinfo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074542347057:android:a870bfbf09f53b8821a610",
+        "android_client_info": {
+          "package_name": "com.example.lifemedicalinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074542347057-929iumj2rtgn69cpptlav080qcknfcdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7kUegAQsPLa1ERFPxIJCw_liq-SpmqvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074542347057-929iumj2rtgn69cpptlav080qcknfcdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

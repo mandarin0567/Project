@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">생활의료정보</string>
+    <string name="aed_detail_toolbar_title">AED 상세정보</string>
+    <string name="aed_detail_textView_text_1">주소: %s</string>
+    <string name="aed_detail_textView_text_2">장소: %s</string>
+    <string name="aed_detail_textView_text_3">관리 전화번호: %s</string>
+    <string name="aed_detail_textView_text_4">담당자: %s</string>
+    <string name="aed_detail_textView_text_5">담당자 전화번호: %s</string>
+    <string name="aed_detail_textView_text_6">모델명: %s</string>
+    <string name="aed_detail_textView_text_7">생산업체: %s</string>
+    <string name="aed_detail_textView_text_8">위도: %s</string>
+    <string name="aed_detail_textView_text_9">경도: %s</string>
+
+    <string name="aed_list_toolbar_title">리스트</string>
+
+    <string name="item_aed_textView_text1">모델: %S</string>
+    <string name="item_aed_textView_text2">주소: %s</string>
+    <string name="item_aed_textView_text3">AED 장소: : %s</string>
+</resources>

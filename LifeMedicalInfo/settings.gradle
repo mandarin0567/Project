@@ -1,0 +1,2 @@
+rootProject.name='생활의료정보'
+include ':app'
